@@ -1,0 +1,83 @@
+.space{
+    margin-top: 8%;
+    padding-bottom: 50px;
+}
+
+.prodimg{
+    height: 450px;
+}
+
+.left{
+    text-align: left;
+}
+
+.title{
+    padding-bottom: 20px;
+}
+
+h2{
+    font-family: Montserrat-light;
+}
+
+h4{
+    font-family: Montserrat-medium;
+    text-align: center;
+}
+
+#prodbtn{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+  }
+  
+  #prodbtn:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 0;
+  }
+
+  p{
+      margin: 0;
+  }
+
+  button{
+      margin-bottom: 30px;
+      margin-top: 30px;
+  }
+
+  .card{
+    width: 250px;
+    border: none;
+  }
+  
+  .card-img-top{
+    background-color: #EBEBEB;
+  }
+  
+  #products{
+    margin-top: 5%;
+    padding-bottom: 10%;
+  }
+  
+  .price{
+    font-family: Montserrat-Bold;
+    padding-bottom: 10px;
+  }
+   
+  .item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+
+    .prodimg{
+      height: 300px;
+  }
+
+  }
+  
+
+  

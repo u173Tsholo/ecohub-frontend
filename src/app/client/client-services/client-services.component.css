@@ -1,0 +1,28 @@
+h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+img{
+    height: 70%;
+}
+
+#prodbtn{
+    margin-top: 250px;
+    width: 250px;
+    color: white;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #A48F41;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-family: Montserrat-Medium;
+  }
+  
+  #prodbtn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  } 

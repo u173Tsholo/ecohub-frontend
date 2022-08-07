@@ -1,0 +1,56 @@
+
+<div class="container move">
+<h2>PRODUCT UPLOAD</h2>
+
+    <div >
+        <label for="">Name</label>
+        <input type="text" class="form-control col-6" formControlName="name" id="name" required>      
+    </div>
+    <br>
+    <div>
+        <label for="">Description</label>
+        <input type="text" class="form-control  col-6" formControlName="description" id="description" required>      
+    </div>
+	<div [innerHtml]='msg' *ngIf="msg" style="color: red;"></div>
+	<div><img [src]="url" *ngIf="url"></div>
+    <br>
+    <br>
+	<p>
+		<input type="file" (change)="selectFile($event)">
+	</p>
+
+    <div class="aiMatch">
+        
+    </div>
+
+<button type="button" class="btn btn-success"  data-toggle="modal" data-target="#create">Verify Image</button>
+
+</div>
+
+
+<div class="modal fade" id="create" tabindex="-1" role="dialog" aria-labelledby="createBoxTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="createBoxLongTitle">Image Recognition results</h5>
+          <button type="button" #closebutton class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+          </button>
+          </div>
+          <div class="modal-body">           
+              <div class="form-row">
+                <div class="form-group col">
+                    <p>Supplied Name: <strong>orange</strong></p>
+                    <p><strong>Identified Name</strong> - range. <strong>Confidence</strong> - 74.7262115478516</p>
+                    <p><strong>Identified Name</strong> - mountain. <strong>Confidence</strong> - 74.7206954956055</p>
+                    <p><strong>Identified Name</strong> - landscape. <strong>Confidence</strong> - 56.7158126831055</p>
+                    <h3>IMAGE FLAGGED!</h3>
+                </div>
+              </div>                              
+              <div class="modal-footer" >
+                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+              </div>          
+          </div>
+      </div>
+    </div> 
+  </div>

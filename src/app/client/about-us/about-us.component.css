@@ -1,0 +1,59 @@
+#about{
+    text-align: center;
+    padding-bottom: 4%;  
+    padding-top: 5%;
+}
+
+.stone{
+    background-image: url(../../../assets/images/august.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.container{
+    padding-bottom: 4%;   
+
+} 
+
+#logo{
+    height: 350px;
+}
+
+p, .card-body, #our, h1{
+    font-family: Montserrat-Regular;
+}
+
+.teams{
+    background-color: black;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+#our{
+    text-align: center;
+    padding-bottom: 4%;  
+    color: white;
+}
+
+.card-title{
+    margin-top: 5%;
+    font-family: Montserrat-Medium;
+    color: white;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.card-text{
+    margin-top: 5%;
+    color: white;
+}
+
+.card-img{
+    margin-bottom: 30px;
+}
